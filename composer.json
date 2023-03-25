@@ -1,0 +1,14 @@
+{
+  "autoload": {
+    "psr-4": {
+      "dconf\\": "vendor/dconf",
+      "app\\": "app"
+    }
+  },
+  "require": {
+    "gabordemooij/redbean": "^v5.7.1",
+    "telegram-bot/api": "^2.3",
+    "tecnickcom/tcpdf": "^6.6",
+    "ext-curl": "*"
+  }
+}

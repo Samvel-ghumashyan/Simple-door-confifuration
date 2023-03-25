@@ -1,0 +1,156 @@
+.title-door {
+    width: 100%;
+    height: auto;
+    background-color: #ededed;
+}
+
+.title_d_p {
+    position: relative;
+    left: 64px;
+    top: 30px;
+    font-size: 35px;
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 0;
+    width: 600px;
+}
+
+.l_r_side {
+    width: 50%;
+    text-align: center;
+}
+
+
+
+
+
+
+.two-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    background-color: #ededed;
+}
+
+#doors-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 50%;
+    height: 490px;
+    background-color: #ededed;
+}
+
+
+
+
+
+
+.door-1 {
+    width: 200px;
+    height: 450px;
+    border: 16px solid red;
+    background-color: blue;
+    margin-right: 30px;
+}
+
+.handle-1 {
+    width: 50px;
+    height: 12px;
+    background-color: red;
+    position: relative;
+    left: 149px;
+    top: 220px;
+}
+
+
+
+.door-2 {
+    width: 200px;
+    height: 450px;
+    border: 16px solid red;
+    background-color: blue;
+}
+
+.handle-2 {
+    width: 50px;
+    height: 12px;
+    background-color: red;
+    position: relative;
+    left: 149px;
+    top: 220px;
+}
+
+
+
+
+
+.params-head {
+    width: 50%;
+    height: 490px;
+    background-color: #ededed;
+}
+
+.params-title {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#form-head > label {
+    display: block;
+    width: 150px;
+    float: left;
+    text-align: right;
+
+}
+
+#form-head > input, select {
+    display: block;
+    margin-right: 48px;
+    float: right;
+    text-align: left;
+
+}
+
+
+
+input[type= "button"] {
+    background-color: white; 
+    border: 0px solid grey; 
+    width: 70px; 
+    height: 24px; 
+    border-radius: 10px; 
+    text-align: center; 
+    cursor: pointer;
+}
+
+
+#total_b { 
+    margin: 0; 
+    margin-right: 25px;
+    padding: 10px;
+    font-size: 24px; 
+    color: white;
+    text-align: center; 
+    width: auto;
+    height: 50px; 
+    cursor: pointer; 
+    border: 0px solid white; 
+    border-radius: 0;
+    background-color: #4e1c1c;
+}
+
+#total_b:hover {
+    background-color: #6f3939;
+}
+
+
+
